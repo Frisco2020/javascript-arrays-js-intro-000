@@ -5,9 +5,13 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToBeginningOfArray(array, element) {
-array = [element, ...array]
+array = [element, ...array];
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
+}
+
+function addElementToEndOfArray(array, element) {
+  array = [...array, element];
 }
