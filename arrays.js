@@ -4,6 +4,10 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
 }
 
+function addElementToBeginningOfArray(array, element) {
+  
+}
+
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
 }
